@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <link href="css/about.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Ubuntu+Mono" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".no-green").hover(function(){
+          $(".no-green").toggleClass("green");
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("#surroundings").click(function(){
+          $(".image-one").toggle();
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("#surroundings").click(function () {
+         $(".image-one").show("slow");
+        });
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("#sustainable").click(function(){
+          $(".image-two").toggle();
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("#sustainable").click(function () {
+         $(".image-two").show("slow");
+        });
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("#dev").click(function(){
+          $(".image-three").toggle();
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("#dev").click(function () {
+         $(".image-three").show("slow");
+        });
+    </script>
+    <title>About</title>
+  </head>
+
+  <body>
+    <header>
+      <span>
+        <h1>Environmentalus</h1>
+      </span>
+      <div class="sub-header">
+        <h2>Because we must take collective action</h2>
+      </div>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Write for us</a></li>
+      </ul>
+    </header>
+
+    <p>
+
+      <span class="emphasis">Environmental<span class="no-green">us</span>: because our environment is <span class="no-green">ours</span>, and protecting it is <span class="no-green">our</span> responsibility</span><br>
+      <br><span class="intro">Welcome to my blog. I want to explore the interconnectedness of the economy and our environment. Some important questions I want to answer are:</span>
+
+      <ul class="qs">
+        <li id="surroundings">How do our economic actions impact our surroundings?</li><br>
+        <li id="sustainable">Can it be easier to make environmentally-friendly and sustainable decisions?</li><br>
+        <li id="dev">Are today's developing countries doomed to grow in the same environmentally-damaging ways?</li>
+      </ul>
+
+    </p>
+
+    <div class="image-one">
+      <img src="https://images.unsplash.com/photo-1526951521990-620dc14c214b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80" class="center">
+    </div>
+
+    <div class="image-two">
+      <img src="https://images.unsplash.com/photo-1518838439236-2b73ceb4638a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80" class="center">
+    </div>
+
+    <div class="image-three">
+      <img src="https://images.unsplash.com/reserve/0Ad9yHP8QdCYBUqKxoiw_Stockholmsnow.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1722&q=80" class="center">
+    </div>
+
+  </body>
+
+</html>
